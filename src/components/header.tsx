@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/style.css';
-import Logo from '../img/logo.jpg';
+import Logo from '../img/logo.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Header = () => {
   return (
