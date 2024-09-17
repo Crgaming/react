@@ -55,7 +55,7 @@ const Login = () => {
                       <div className="col-md-6 d-flex justify-content-center">
                         {/* Checkbox */}
                         <div className="form-check mb-3 mb-md-0">
-                          <input className="form-check-input" type="checkbox" defaultValue id="loginCheck" defaultChecked />
+                          <input className="form-check-input" type="checkbox"  id="loginCheck" defaultChecked />
                           <label className="form-check-label" htmlFor="loginCheck"> Remember me </label>
                         </div>
                       </div>
@@ -126,7 +126,7 @@ const Login = () => {
 
                     {/* Checkbox */}
                     <div className="form-check d-flex justify-content-center mb-4">
-                      <input className="form-check-input me-2" type="checkbox" defaultValue id="registerCheck" defaultChecked aria-describedby="registerCheckHelpText" />
+                      <input className="form-check-input me-2" type="checkbox"id="registerCheck" defaultChecked aria-describedby="registerCheckHelpText" />
                       <label className="form-check-label" htmlFor="registerCheck">
                         I have read and agree to the terms
                       </label>
