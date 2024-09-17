@@ -4,7 +4,7 @@ import Logo from '../img/logo.jpg';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Header = () => {
   return (
-  
+
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
@@ -42,12 +42,12 @@ const Header = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    PRODUCT ARCHIVE
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    SINGLE PRODUCT
                   </a>
                 </li>
               </ul>
@@ -66,12 +66,12 @@ const Header = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    NEWS ARCHIVE
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    SINGLE NEWS
                   </a>
                 </li>
               </ul>
@@ -90,12 +90,12 @@ const Header = () => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    ABOUT US
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    FAQ
                   </a>
                 </li>
               </ul>
@@ -113,6 +113,11 @@ const Header = () => {
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
               <i className="bi bi-cart-fill" style={{fontWeight:"bold"}}></i>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+              <i className="bi bi-person-circle" style={{fontWeight:"bold"}}></i>
               </a>
             </li>
           </ul>

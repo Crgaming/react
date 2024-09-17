@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .banner {
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.png);
     font-family: 'Roboto', sans-serif;
     color: white;
     background-repeat: no-repeat;
@@ -57,3 +57,25 @@
     margin-bottom: 8px;
 }
 
+.product-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #a8a6a627;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hot-product {
+    background-color: #00265E;
+    color: white;
+    padding: 20px;
+}
+
+.hot-product .see-more-btn {
+    background-color: #E62129;
+    color: white;
+    border: none;
+}

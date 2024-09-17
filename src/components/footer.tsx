@@ -10,23 +10,18 @@ function footer() {
     </div>
     <div>
       <a href='#' className="me-4 text-reset">
-        <i className="fab fa-facebook-f" />
+      <i className="bi bi-facebook"></i>
       </a>
       <a href='#' className="me-4 text-reset">
-        <i className="fab fa-twitter" />
+      <i className="bi bi-twitter"></i>
       </a>
       <a href='#' className="me-4 text-reset">
-        <i className="fab fa-google" />
+      <i className="bi bi-google"></i>
       </a>
       <a href='#' className="me-4 text-reset">
         <i className="fab fa-instagram" />
       </a>
-      <a href='#' className="me-4 text-reset">
-        <i className="fab fa-linkedin" />
-      </a>
-      <a href='#' className="me-4 text-reset">
-        <i className="fab fa-github" />
-      </a>
+     
     </div>
   </section>
   <section>
