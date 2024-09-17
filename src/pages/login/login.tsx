@@ -1,10 +1,12 @@
 import React from 'react'
-
+import "bootstrap-icons/font/bootstrap-icons.css";
+import '../../css/login.css';
 const Login = () => {
   
   
   return (
-     <div className="container mt-5">
+    <body>
+     <div className="container mt-5 ct">
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-8">
           <div className="card">
@@ -24,16 +26,16 @@ const Login = () => {
                     <div className="text-center mb-3">
                       <p>Sign in with:</p>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-link btn-floating mx-1">
-                        <i className="fab fa-facebook-f" />
+                        <i className="bi bi-facebook" />
                       </button>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-link btn-floating mx-1">
-                        <i className="fab fa-google" />
+                        <i className="bi bi-google" />
                       </button>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-link btn-floating mx-1">
-                        <i className="fab fa-twitter" />
+                        <i className="bi bi-twitter-x" />
                       </button>
                       <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-link btn-floating mx-1">
-                        <i className="fab fa-github" />
+                        <i className="bi bi-github" />
                       </button>
                     </div>
                     <p className="text-center">or:</p>
@@ -126,7 +128,7 @@ const Login = () => {
 
                     {/* Checkbox */}
                     <div className="form-check d-flex justify-content-center mb-4">
-                      <input className="form-check-input me-2" type="checkbox"id="registerCheck" defaultChecked aria-describedby="registerCheckHelpText" />
+                      <input className="form-check-input me-2" type="checkbox" id="registerCheck" defaultChecked aria-describedby="registerCheckHelpText" />
                       <label className="form-check-label" htmlFor="registerCheck">
                         I have read and agree to the terms
                       </label>
@@ -142,6 +144,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </body>
   );
 };
 
