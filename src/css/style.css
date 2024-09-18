@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.banner {
+.banner-main {
     background-image: url(../img/banner.png);
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -19,11 +19,11 @@
 
 .btn-custom:hover {
     background: rgb(51, 164, 51);
-    color: white !important;
+    color: white;
 }
 
 @media screen and (max-width: 567px) {
-    .banner {
+    .banner-main {
         text-align: center;
     }
 }

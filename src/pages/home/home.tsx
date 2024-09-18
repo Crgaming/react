@@ -6,10 +6,12 @@ import Shoes1 from "../../img/shoes1.png"
 import Shoes2 from "../../img/shoes2.png"
 import Shoes3 from "../../img/shoes3.png"
 import Shoes4 from "../../img/shoes4.png"
+import ProductCard from "../../components/productcard";
+
 const Home = () => {
   return (
     <>
-      <div className="banner">
+      <div className="banner-main">
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-6">
@@ -59,44 +61,12 @@ const Home = () => {
       </div>
      <div className="container mt-5">
   <div className="row">
-    {/* Product 1 */}
-    <div className="col-md-3">
-      <div className="product-card">
-        <img src={Shoes1} alt="Fillo Xtreama 3 Retro" className="img-fluid" />
-        <h5 className="mt-3">Fillo – XTREMA 3 RETRO</h5>
-        <p className="text-primary">$20.00</p>
-        <a href="#" className="btn btn-outline-dark">Select Options</a>
-      </div>
-    </div>
-    {/* Product 2 */}
-    <div className="col-md-3">
-      <div className="product-card">
-        <img src={Shoes2} alt="Nika Sporta X Brown" className="img-fluid" />
-        <h5 className="mt-3">Nika – SPORTA X BROWN</h5>
-        <p className="text-primary">$20.00</p>
-        <a href="#" className="btn btn-outline-dark">Select Options</a>
-      </div>
-    </div>
-    {/* Product 3 */}
-    <div className="col-md-3">
-      <div className="product-card">
-        <img src={Shoes3} alt="Nika Skorta S Black" className="img-fluid" />
-        <h5 className="mt-3">Nika – SKORTA S BLACK</h5>
-        <p className="text-primary">$20.00</p>
-        <a href="#" className="btn btn-outline-dark">Select Options</a>
-      </div>
-    </div>
-    {/* Product 4 */}
-    <div className="col-md-3">
-      <div className="product-card">
-        <img src={Shoes4} alt="Fillo Yezzo 2X White" className="img-fluid" />
-        <h5 className="mt-3">Fillo – YEZZO 2X WHITE</h5>
-        <p className="text-primary">$20.00</p>
-        <a href="#" className="btn btn-outline-dark">Select Options</a>
-      </div>
-    </div>
+          <ProductCard imgSrc={Shoes1} title="Shoes 1" price="$20.00" />
+          <ProductCard imgSrc={Shoes2} title="Shoes 2" price="$20.00" />
+          <ProductCard imgSrc={Shoes3} title="Shoes 3" price="$20.00" />
+          <ProductCard imgSrc={Shoes4} title="Shoes 4" price="$20.00" />
+          
   </div>
-  {/* Hot Product Section */}
 </div>
   <div className="row mt-5">
     <div className="col-md-12">
