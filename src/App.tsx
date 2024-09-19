@@ -5,6 +5,7 @@ import Product from "./pages/product/product";
 import ShopPage from "./pages/shop/shop";
 import Login from "./pages/login/login";
 import Contact from "./pages/contact/contact";
+import SingleProduct from "./pages/single_product/singe_product";
 // Add more routes as needed
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="shop" element={<ShopPage />} />
             <Route path="contact" element={<Contact />} />
             <Route path="login" element={<Login />} />
+            <Route path="SingleProduct" element={<SingleProduct />} />
           </Route>
         </Routes>
       </BrowserRouter>

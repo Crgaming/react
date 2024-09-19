@@ -3,6 +3,7 @@ import '../css/style.css';
 import Logo from '../img/logo.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Header = () => {
+  
   return (
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -24,24 +25,25 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/">
                 HOME
               </a>
             </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
+                href=""
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                
               >
                SHOP
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/shop">
                     PRODUCT ARCHIVE
                   </a>
                 </li>
@@ -82,7 +84,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/contact">
                 CONTACT US
               </a>
             </li>
@@ -97,7 +99,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/login">
               <i className="bi bi-person-circle" style={{fontWeight:"bold"}}></i>
               </a>
             </li>

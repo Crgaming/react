@@ -6,7 +6,7 @@ import Shoes1 from "../../img/shoes1.png"
 import Shoes2 from "../../img/shoes2.png"
 import Shoes3 from "../../img/shoes3.png"
 import Shoes4 from "../../img/shoes4.png"
-import ProductCard from "../../components/productcard";
+import Productcard from "../../components/ProductCard"
 
 const Home = () => {
   return (
@@ -16,19 +16,19 @@ const Home = () => {
           <div className="row">
             <div className="col-12 col-md-6">
               <div>
-              <h1>XTREMA 3</h1>
-              <h2>COMFY AND TRENDY</h2>
-              <p>
-                A shoe is an item of footwear intended to protect and comfort.
-                They are often worn with a sock. Shoes are also used as an item
-                of decoration and fashion. The design of shoes has varied
-                enormously through time and from culture to culture, with form
-                originally being tied to function.
-              </p>
-              <button className="btn btn-outline-light btn-lg btn-custom">
-                Shop Here
-              </button>
-            </div>
+                <h1>XTREMA 3</h1>
+                <h2>COMFY AND TRENDY</h2>
+                <p>
+                  A shoe is an item of footwear intended to protect and comfort.
+                  They are often worn with a sock. Shoes are also used as an item
+                  of decoration and fashion. The design of shoes has varied
+                  enormously through time and from culture to culture, with form
+                  originally being tied to function.
+                </p>
+                <button className="btn btn-outline-light btn-lg btn-custom">
+                  Shop Here
+                </button>
+              </div>
             </div>
             <div className="col-12 col-md-6">
               <img className="img-fluid" src={Banner} alt="Banner" />
@@ -59,28 +59,28 @@ const Home = () => {
           </div>
         </div>
       </div>
-     <div className="container mt-5">
-  <div className="row">
-          <ProductCard imgSrc={Shoes1} title="Shoes 1" price="$20.00" />
-          <ProductCard imgSrc={Shoes2} title="Shoes 2" price="$20.00" />
-          <ProductCard imgSrc={Shoes3} title="Shoes 3" price="$20.00" />
-          <ProductCard imgSrc={Shoes4} title="Shoes 4" price="$20.00" />
-          
-  </div>
-</div>
-  <div className="row mt-5">
-    <div className="col-md-12">
-      <div className="hot-product d-flex justify-content-between">
-        <div>
-          <h2>HOT PRODUCT.</h2>
-          <p></p>
-        </div>
-        <div>
-          <a href="#" className="btn see-more-btn">See More →</a>
+      <div className="container mt-5">
+        <div className="row">
+          <Productcard imgSrc={Shoes1} title="Shoes 1" price="$20.00" />
+          <Productcard imgSrc={Shoes2} title="Shoes 2" price="$20.00" />
+          <Productcard imgSrc={Shoes3} title="Shoes 3" price="$20.00" />
+          <Productcard imgSrc={Shoes4} title="Shoes 4" price="$20.00" />
+
         </div>
       </div>
-    </div>
-  </div>
+      <div className="row mt-5">
+        <div className="col-md-12">
+          <div className="hot-product d-flex justify-content-between">
+            <div>
+              <h2>HOT PRODUCT.</h2>
+              <p></p>
+            </div>
+            <div>
+              <a href="#" className="btn see-more-btn">See More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </>
   );

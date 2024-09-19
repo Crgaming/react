@@ -7,7 +7,7 @@ import Shoes1 from "../../img/shoes1.png";
 import Shoes2 from "../../img/shoes2.png";
 import Shoes3 from "../../img/shoes3.png";
 import Shoes4 from "../../img/shoes4.png";
-import ProductCard from "../../components/productcard";
+import Productcard from "../../components/ProductCard"
 import SearchBar from "../../components/SearchBar";
 function Shop() {
   return (
@@ -26,14 +26,14 @@ function Shop() {
 
             </div>
             <div className='row'>
-              <ProductCard imgSrc={Shoes1} title="Fillo - XTREMA 3 RETRO" price="$20.00" />
-              <ProductCard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
-              <ProductCard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
-              <ProductCard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
-              <ProductCard imgSrc={Shoes1} title="Fillo - XTREMA 3 RETRO" price="$20.00" />
-              <ProductCard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
-              <ProductCard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
-              <ProductCard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
+              <Productcard imgSrc={Shoes1} title="Fillo - XTREMA 3 RETRO" price="$20.00" />
+              <Productcard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
+              <Productcard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
+              <Productcard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
+              <Productcard imgSrc={Shoes1} title="Fillo - XTREMA 3 RETRO" price="$20.00" />
+              <Productcard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
+              <Productcard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
+              <Productcard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
             </div>
           </div>
          
