@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../../components/Banner';
 import shopBanner from "../../img/singlebanner.jpg";
 import Shoes1 from "../../img/shoes1.png";
-import Shoes2 from "../../img/shoes2.png"; // Add the related product images here
+import Shoes2 from "../../img/shoes2.png"; 
 import Shoes3 from "../../img/shoes3.png";
 import Shoes4 from "../../img/shoes4.png";
 
@@ -104,7 +104,7 @@ function single_product() {
                         <div className="reviews">
                             <div className="card mb-3">
                                 <div className="card-body">
-                                    <h5 className="card-title">John Doe <span className="text-warning">★★★★☆</span></h5>
+                                    <h5 className="card-title">John Doe <span className="text-warning">4(★)</span></h5>
                                     <p className="card-text">Great pair of sneakers! Very comfortable and stylish. The colors really pop.</p>
                                     <small className="text-muted">Posted on September 18, 2024</small>
                                 </div>
@@ -112,7 +112,7 @@ function single_product() {
 
                             <div className="card mb-3">
                                 <div className="card-body">
-                                    <h5 className="card-title">Jane Smith <span className="text-warning">★★★★★</span></h5>
+                                    <h5 className="card-title">Jane Smith <span className="text-warning">5(★)</span></h5>
                                     <p className="card-text">Absolutely love these sneakers! They fit perfectly, and the design is amazing.</p>
                                     <small className="text-muted">Posted on September 17, 2024</small>
                                 </div>

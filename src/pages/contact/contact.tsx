@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 function contact() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
       <h2>Contact Us</h2>
       <form>
         {/* Name input */}
@@ -52,8 +52,7 @@ function contact() {
         </div>
       </form>
     </div>
-
-  )
+  );
 }
 
-export default contact
+export default contact;

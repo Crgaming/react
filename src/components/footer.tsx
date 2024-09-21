@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Logo from '../img/logo.png';
 function footer() {
@@ -36,16 +36,14 @@ function footer() {
             <i className="fas fa-gem me-3" />
             <img src={Logo} alt="" width={150}/>
           </h6>
-          <p>
-           TDC Shoes
-          </p>
+         
         </div>
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 className="text-uppercase fw-bold mb-4">
            Quick Links
           </h6>
           <p>
-            <a href='#' className="text-reset">Home</a>
+            <a href='/' className="text-reset">Home</a>
           </p>
           <p>
             <a href='#' className="text-reset">About Us</a>
@@ -54,7 +52,7 @@ function footer() {
             <a href='#' className="text-reset">Destination</a>
           </p>
           <p>
-            <a href='#' className="text-reset">Contact</a>
+            <a href='/Contact' className="text-reset">Contact</a>
           </p>
         </div>
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">

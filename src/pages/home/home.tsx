@@ -61,10 +61,10 @@ const Home = () => {
       </div>
       <div className="container mt-5">
         <div className="row">
-          <Productcard imgSrc={Shoes1} title="Shoes 1" price="$20.00" />
-          <Productcard imgSrc={Shoes2} title="Shoes 2" price="$20.00" />
-          <Productcard imgSrc={Shoes3} title="Shoes 3" price="$20.00" />
-          <Productcard imgSrc={Shoes4} title="Shoes 4" price="$20.00" />
+          <Productcard imgSrc={Shoes1} title="Fillo - XTREMA 3 RETRO" price="$20.00" />
+          <Productcard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
+          <Productcard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
+          <Productcard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
 
         </div>
       </div>

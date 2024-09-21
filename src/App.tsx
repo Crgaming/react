@@ -6,6 +6,7 @@ import ShopPage from "./pages/shop/shop";
 import Login from "./pages/login/login";
 import Contact from "./pages/contact/contact";
 import SingleProduct from "./pages/single_product/singe_product";
+import Register from "./pages/register/register";
 // Add more routes as needed
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="login" element={<Login />} />
             <Route path="SingleProduct" element={<SingleProduct />} />
+            <Route path="register" element={<Register />} />
           </Route>
         </Routes>
       </BrowserRouter>

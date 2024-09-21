@@ -41,14 +41,14 @@ const Header = () => {
               >
                SHOP
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="/shop">
                     PRODUCT ARCHIVE
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/SingleProduct">
                     SINGLE PRODUCT
                   </a>
                 </li>
@@ -59,29 +59,10 @@ const Header = () => {
                 NEWS
               </a>
             </li>
-             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PAGE
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="">
+                ABOUT US
               </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    ABOUT US
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    FAQ
-                  </a>
-                </li>
-              </ul>
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/contact">
@@ -99,8 +80,8 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/login">
-              <i className="bi bi-person-circle" style={{fontWeight:"bold"}}></i>
+              <a className="nav-link active" aria-current="page" href="/Register">
+              <i className="bi bi-person-circle" style={{fontWeight:"bold",}}></i>
               </a>
             </li>
           </ul>
