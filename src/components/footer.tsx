@@ -1,6 +1,6 @@
 
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Logo from '../img/logo.png';
+import Logo from '../img/Logo2.png';
 function footer() {
   return (
    <>

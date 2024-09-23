@@ -1,4 +1,4 @@
-// ProductCard.tsx
+
 import React from "react";
 
 interface ProductCardProps {

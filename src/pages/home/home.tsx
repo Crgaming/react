@@ -65,6 +65,7 @@ const Home = () => {
           <Productcard imgSrc={Shoes2} title="Nika - SPORTA X BROWN" price="$20.00" />
           <Productcard imgSrc={Shoes3} title="Nika - SKORTA S BLACK" price="$20.00" />
           <Productcard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
+          
 
         </div>
       </div>

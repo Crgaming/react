@@ -1,41 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../../css/login.css';
 
-const Login = () => {
-  const [activeTab, setActiveTab] = useState('login');
-
-  const handleTabSwitch = (tab: 'login' | 'register') => {
-    setActiveTab(tab);
-  };
-
+function Login() {
   return (
     <div className="container mt-5 ct mb-5">
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-8">
           <div className="card">
             <div className="card-body">
-              <ul className="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+              <ul className="nav nav-tabs mb-3" id="loginTabs" role="tablist">
                 <li className="nav-item" role="presentation">
                   <a
-                    className={`nav-link ${activeTab === 'login' ? 'active' : ''}`}
+                    className="nav-link active "
                     id="tab-login"
-                    onClick={() => handleTabSwitch('login')}
+                    data-bs-toggle="tab"
+                    href="#pills-login"
                     role="tab"
                     aria-controls="pills-login"
-                    aria-selected={activeTab === 'login'}
+                    aria-selected="true"
                   >
                     Login
                   </a>
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className={`nav-link ${activeTab === 'register' ? 'active' : ''}`}
+                    className="nav-link"
                     id="tab-register"
-                    onClick={() => handleTabSwitch('register')}
+                    data-bs-toggle="tab"
+                    href="#pills-register"
                     role="tab"
                     aria-controls="pills-register"
-                    aria-selected={activeTab === 'register'}
+                    aria-selected="false"
                   >
                     Register
                   </a>
@@ -43,7 +39,12 @@ const Login = () => {
               </ul>
 
               <div className="tab-content">
-                <div className={`tab-pane fade ${activeTab === 'login' ? 'show active' : ''}`} id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                <div
+                  className="tab-pane fade show active"
+                  id="pills-login"
+                  role="tabpanel"
+                  aria-labelledby="tab-login"
+                >
                   <form>
                     <div className="text-center mb-3">
                       <p>Sign in with:</p>
@@ -90,16 +91,21 @@ const Login = () => {
                     </div>
 
                     {/* Submit button */}
-                    <a href='/' type="submit" className="btn btn-primary btn-block mb-4">Sign in</a>
+                    <a href="/" type="submit" className="btn btn-primary btn-block mb-4">Sign in</a>
 
                     {/* Register buttons */}
                     <div className="text-center">
-                      <p>Not a member? <a href="#!" onClick={() => handleTabSwitch('register')}>Register</a></p>
+                      <p>Not a member? <a href="#!" data-bs-toggle="tab" data-bs-target="#pills-register">Register</a></p>
                     </div>
                   </form>
                 </div>
 
-                <div className={`tab-pane fade ${activeTab === 'register' ? 'show active' : ''}`} id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                <div
+                  className="tab-pane fade"
+                  id="pills-register"
+                  role="tabpanel"
+                  aria-labelledby="tab-register"
+                >
                   <form>
                     <div className="text-center mb-3">
                       <p>Sign up with:</p>
@@ -167,6 +173,6 @@ const Login = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Login;

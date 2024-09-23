@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/style.css';
-import Logo from '../img/logo.png';
+import Logo from '../img/Logo2.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Header = () => {
   
@@ -9,7 +9,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand" href="#">
-         <img src={Logo} style={{width:'100px',height:'80px'}}></img>
+         <img src={Logo} style={{width:'100px',height:'auto'}}></img>
         </a>
         <button
           className="navbar-toggler"
@@ -43,7 +43,7 @@ const Header = () => {
               </a>
               <ul className="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="/shop">
+                  <a className="dropdown-item" href="/Products">
                     PRODUCT ARCHIVE
                   </a>
                 </li>
@@ -60,7 +60,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="">
+              <a className="nav-link active" aria-current="page" href="/About">
                 ABOUT US
               </a>
             </li>
@@ -75,7 +75,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/Cart">
               <i className="bi bi-cart-fill" style={{fontWeight:"bold"}}></i>
               </a>
             </li>
