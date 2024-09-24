@@ -12,9 +12,9 @@ import '../../css/singleproduct.css';
 function single_product() {
     return (
         <>
-            <Banner imgSrc={shopBanner} title="Fillo – Xtrema 3 Retro" />
+            <Banner imgSrc={shopBanner} title="Fillo - Xtrema 3 Retro" />
 
-            <div className="container mt-5">
+            <div className="container mt-5 mb-3">
                 <div className="row">
                     {/* Product Image Section */}
                     <div className="col-md-6 text-center">
@@ -63,7 +63,7 @@ function single_product() {
                         <h4 className="text-primary mb-3">Customer Reviews</h4>
 
                         {/* Review Form */}
-                        <form className="mb-4">
+                        <form className="mb-4 bg-p">
                             <div className="mb-3">
                                 <label htmlFor="reviewerName" className="form-label"><strong>Name</strong></label>
                                 <input type="text" className="form-control" id="reviewerName" placeholder="Your Name" />

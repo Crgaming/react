@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ imgSrc, title, price }) => {
       <img src={imgSrc} alt={title} className="img-fluid" />
       <h5 className="mt-3">{title}</h5>
       <p className="text-info"><strong>{price}</strong></p>
-      <a href="#" className="btn btn-outline-dark">Select Options</a>
+      <a href="#" className="btn btn-outline-danger">Select Options</a>
     </div>
   </div>
   );

@@ -25,9 +25,9 @@ const Home = () => {
                   enormously through time and from culture to culture, with form
                   originally being tied to function.
                 </p>
-                <button className="btn btn-outline-light btn-lg btn-custom">
+                <a href="/SingleProduct" className="btn btn-outline-light btn-lg btn-custom">
                   Shop Here
-                </button>
+                </a>
               </div>
             </div>
             <div className="col-12 col-md-6">
@@ -69,7 +69,7 @@ const Home = () => {
 
         </div>
       </div>
-      <div className="row mt-5">
+      <div className="row mt-5 mb-3">
         <div className="col-md-12">
           <div className="hot-product d-flex justify-content-between">
             <div>

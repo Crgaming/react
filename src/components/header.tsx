@@ -3,13 +3,13 @@ import '../css/style.css';
 import Logo from '../img/Logo2.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Header = () => {
-  
+
   return (
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm bg-body-tertiary rounded">
       <div className="container">
         <a className="navbar-brand" href="#">
-         <img src={Logo} style={{width:'100px',height:'auto'}}></img>
+          <img src={Logo} style={{ width: '100px', height: 'auto' }}></img>
         </a>
         <button
           className="navbar-toggler"
@@ -37,9 +37,9 @@ const Header = () => {
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                
+
               >
-               SHOP
+                SHOP
               </a>
               <ul className="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdown">
                 <li>
@@ -70,18 +70,61 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-              <i className="bi bi-search"style={{fontWeight:"bold"}}></i>
-              </a>
+              <button
+                type="button"
+                className="nav-link active btn"
+                aria-current="page"
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+                style={{ fontWeight: "bold", background: "none", border: "none" }}
+              >
+                <i className="bi bi-search"></i>
+              </button>
             </li>
+
+            {/* Modal */}
+            <div
+              className="modal fade"
+              id="searchModal"
+
+              aria-labelledby="searchModalLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="searchModalLabel">Search</h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="modal-body">
+
+                    <input type="text" className="form-control" placeholder="Search..." />
+                  </div>
+                  <div className="modal-footer">
+                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" className="btn btn-danger">
+                      Search
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/Cart">
-              <i className="bi bi-cart-fill" style={{fontWeight:"bold"}}></i>
+                <i className="bi bi-cart-fill" style={{ fontWeight: "bold" }}></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="/Register">
-              <i className="bi bi-person-circle" style={{fontWeight:"bold",}}></i>
+                <i className="bi bi-person-circle" style={{ fontWeight: "bold", }}></i>
               </a>
             </li>
           </ul>

@@ -1,7 +1,13 @@
 import React from "react";
+import Banner from '../../components/Banner';
+import shopBanner from "../../img/wear-sai-gon.webp";
 import "bootstrap-icons/font/bootstrap-icons.css";
 function contact() {
   return (
+    <>
+    <div>
+        <Banner imgSrc={shopBanner} title="Contact Us" />
+      </div>
     <div className="container mt-5 mb-5">
       <h2>Contact Us</h2>
       <form>
@@ -52,6 +58,7 @@ function contact() {
         </div>
       </form>
     </div>
+    </>
   );
 }
 

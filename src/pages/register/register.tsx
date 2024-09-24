@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import '../../css/login.css';
+
 
 function Login() {
   return (
-    <div className="container mt-5 ct mb-5">
+    <div className="container mt-5 ct mb-5 custom-lg">
       <div className="row justify-content-center">
         <div className="col-lg-6 col-md-8">
           <div className="card">
