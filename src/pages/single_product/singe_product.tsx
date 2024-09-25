@@ -2,7 +2,7 @@ import React from 'react';
 import Banner from '../../components/Banner';
 import shopBanner from "../../img/singlebanner.jpg";
 import Shoes1 from "../../img/shoes1.png";
-import Shoes2 from "../../img/shoes2.png"; 
+import Shoes2 from "../../img/shoes2.png";
 import Shoes3 from "../../img/shoes3.png";
 import Shoes4 from "../../img/shoes4.png";
 
@@ -39,7 +39,7 @@ function single_product() {
                                 <label htmlFor="size" className="form-label"><strong>Size</strong></label>
                                 <select id="size" className="form-select" size={1}>
                                     <option selected>Choose an option</option>
-                                    <option >46</option>
+                                    <option>46</option>
                                     <option>45</option>
                                     <option>44</option>
                                     <option>43</option>

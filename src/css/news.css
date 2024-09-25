@@ -1,0 +1,13 @@
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+}
+.list-unstyled li a{
+  text-decoration: none;
+  color:black;
+}

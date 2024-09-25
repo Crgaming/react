@@ -69,7 +69,7 @@ const Home = () => {
 
         </div>
       </div>
-      <div className="row mt-5 mb-3">
+      <div className="row mt-5 mb-2">
         <div className="col-md-12">
           <div className="hot-product d-flex justify-content-between">
             <div>

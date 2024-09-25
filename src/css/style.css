@@ -11,6 +11,8 @@
 .navbar .nav-link {
     font-size: large;
     color: black !important;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.4mm;
 }
 
 .nav-link:hover {

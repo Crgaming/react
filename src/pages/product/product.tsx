@@ -21,8 +21,8 @@ function Shop() {
           <div className='col-lg-9'>
             <h2 className='fw-bold'>Our Product</h2>
             <div className='col-lg-3'>
-            {/* Search Bar */}
-           <SearchBar/>
+              {/* Search Bar */}
+              <SearchBar />
 
             </div>
             <div className='row'>
@@ -36,8 +36,8 @@ function Shop() {
               <Productcard imgSrc={Shoes4} title="Fillo - YEZZO 2X WHITE" price="$20.00" />
             </div>
           </div>
-         
-         
+
+
         </div>
       </div>
     </>

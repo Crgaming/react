@@ -55,7 +55,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="/News">
                 NEWS
               </a>
             </li>

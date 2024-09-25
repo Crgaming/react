@@ -8,6 +8,9 @@ import SingleProduct from "./pages/single_product/singe_product";
 import Register from "./pages/register/register";
 import About from "./pages/about/aboutus";
 import Cart from "./pages/cart/cart";
+import News from "./pages/news/news";
+import Admin from "./layout/admin";
+import AdminPage from "./pages/admin/admin";
 // Add more routes as needed
 function App() {
   return (
@@ -23,9 +26,15 @@ function App() {
             <Route path="register" element={<Register />} />
             <Route path="about" element={<About />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="News" element={<News />} />
+          </Route>
+          
+        </Routes>
+        <Routes>
+        <Route element={<Admin />}>
+            <Route path="admin" element={<AdminPage />} />
           </Route>
         </Routes>
-        
       </BrowserRouter>
     </>
   );

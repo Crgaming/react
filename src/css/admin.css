@@ -1,0 +1,30 @@
+.bodycustom {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    min-width: 200px;
+    
+    padding: 20px;
+    position: relative;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.dashboard-card {
+    margin-bottom: 20px;
+}
+.avatar {
+    width: 50px; /* Set the size of the avatar */
+    height: 50px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.admin-avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
